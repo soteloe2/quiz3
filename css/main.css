@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css");
+@import url("https://use.fontawesome.com/releases/v5.13.1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  margin: 0px;
+  padding: 0px;
+  font: 20px/1.5;
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 5;
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: 700 solid white;
+  color: #fff;
+}
+
+header div .logo {
+  float: left;
+  padding: 1em 3.5em 1em 0.5em;
+}
+
+header nav {
+  text-align: center !important;
+}
+
+nav a {
+  padding: 1em 2.5em;
+  display: inline-block;
+  color: #fff;
+}
+
+a {
+  transition: .3s all ease;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.heroimage {
+  background-image: url(home.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-padding {
+  padding: 7em 0em;
+}
+
+.sideleft {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+.sub-heading {
+  text-transform: "";
+  font-size: 12px #cccccc;
+  letter-spacing: .1em;
+}
+
+.heading {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #697e83;
+  transition: .3s all ease;
+  padding: 12px 30px;
+  margin-top: 1em;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  color: #fff;
+  border: 1px solid #697e83;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.button:hover {
+  color: #697e83;
+  background-color: #fff;
+}
+
+.sideright {
+  width: 60%;
+  float: right;
+}
+
+.bg-color {
+  background-color: #f8f9fa !important;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature-image {
+  position: relative;
+  text-align: center;
+}
+
+.feature-image img {
+  display: inline-block;
+  width: 300px;
+  margin: 1em;
+}
+
+.newletter {
+  padding: 2em;
+  color: #fff;
+  background-color: #35424a;
+  overflow: hidden;
+}
+
+.newletter h1 {
+  float: left;
+  padding: .7em;
+}
+
+.newletter form {
+  float: right;
+  margin: 10px;
+}
+
+.newletter input[type="email"] {
+  padding: 20px 30px;
+  height: 2.8em;
+  width: 250px;
+  outline: none;
+}
+
+.footer {
+  float: left;
+  width: 33%;
+  align-content: center;
+  margin-bottom: 4em;
+}
+
+.main-footer {
+  padding: 4em 0em .9em 0em;
+  background-color: #f2f2f2;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* style sheet for rooms below */
+.rooms-pic-1 {
+  max-width: 30%;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding: 0 1em;
+}
+
+.rooms-pic-1 figure {
+  float: left;
+}
+
+.rooms-body {
+  background-color: #fff !important;
+  padding: 30px;
+  border: 1px solid #e6e6e6;
+  border-top: none;
+}
+
+figure .img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* style sheet for contact page below */
+.contactform input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 0.375 rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+}
+
+.contactform input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 0.375 rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+}
+
+.contactform textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375 rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+}
+
+.contactform {
+  width: 70%;
+  padding-bottom: 4em;
+  margin: auto;
+}
+
+/* Gallery page below */
+.item {
+  width: 330px;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) transition all 0.3s cubic-bezier(0.25, 0.8, 0.25, 0.1);
+}
+
+.item > img {
+  width: 100%;
+  height: 100%;
+}
+
+.item > img:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25), 0 5px 5px rbga(0, 0, 0, 0.22);
+  cursor: pointer;
+}
